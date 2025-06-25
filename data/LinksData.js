@@ -106,32 +106,32 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
-    // Install section
+    // shop section
     {
         title: 'SHOPEE VINTWO',
         url: 'http://shopee.co.id/vintwo',
-        type: 'install',
+        type: 'shop',
         icon: '/use.png',
         on: true
     },
     {
         title: 'TIKTOK VINTWO',
         url: 'https://www.tiktok.com/@vintwo.official',
-        type: 'install',
+        type: 'shop',
         icon: '/vercel.svg',
         on: true
     },
     {
         title: 'WHATSAPP (ADMIN)',
         url: 'https://wa.me/625124244985',
-        type: 'install',
+        type: 'shop',
         icon: '/doc.png',
         on: true
     },
     // {
     //     title: 'Github',
     //     url: 'https://github.com/realvjy/nxt-lnk',
-    //     type: 'install',
+    //     type: 'shop',
     //     icon: '/github-fill.svg',
     //     on: true
     // },

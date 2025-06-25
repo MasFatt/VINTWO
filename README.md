@@ -181,13 +181,13 @@ All frontend customization done inside `components/WebLinks.js`. If you wante to
 
 **Update section**
 
-Look for Section codes. Like if you want to change `install` type to `featured` Update  the `type: 'featured'` in `LinkData.js` then update all `install` related code in `WebLinks.js` to `featured`
+Look for Section codes. Like if you want to change `shop` type to `featured` Update  the `type: 'featured'` in `LinkData.js` then update all `shop` related code in `WebLinks.js` to `featured`
 
 ```js
 // Collect all links filter by type - social, project, nft and other etc=
-// get data for install section
-const install = allLinks.filter((el) => {
-  return el.type === "install" && el.on
+// get data for shop section
+const shop = allLinks.filter((el) => {
+  return el.type === "shop" && el.on
 });
 
 ...
@@ -195,9 +195,9 @@ const install = allLinks.filter((el) => {
 
 {/* Featured Section */ }
 <LinkSection>
-  <h3>{install[0].type}</h3>
+  <h3>{shop[0].type}</h3>
   {
-    install.map((i) => {
+    shop.map((i) => {
       return (
         <Link href={i.url} passHref key={i.title}>
           <LinkBox>
